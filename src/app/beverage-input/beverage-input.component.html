@@ -1,0 +1,7 @@
+<label>
+    Beverage:
+    <input type="text" [formControl]='beverage'/>
+</label>
+<div *ngFor="let item of [].constructor(100); let i = index">
+    <p>{{beverage.value}}</p>
+</div>
